@@ -5,38 +5,5 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background: rgb(155, 155, 155);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-}
-
-#searchInput {
-    margin-bottom: 10px;
-}
-
-.character-card {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin: 10px;
-    width: 200px;
-    text-align: center;
-}
-
-.character-image {
-    max-width: 100%;
-    height: auto;
-    cursor: pointer;
-}
-
-#copyMessage {
-    display: none;
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px;
-    margin-top: 10px;
-    border-radius: 5px;
+    
 }
