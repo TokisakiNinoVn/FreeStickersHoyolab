@@ -41,7 +41,7 @@ const genshinImpactData = [
         imgTypes: ['Honkai Star Rail', 'HSR'],
         charactersInfor: [
             {
-                name: 'Sevent',
+                name: 'Marth 7th',
                 gender: 'female',
                 images: [
                     'https://upload-bbs.mihoyo.com/upload/2022/02/23/e56aa43cdca473369df4e2af3cb5e446_7888845532527976373.png',

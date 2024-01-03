@@ -1,9 +1,12 @@
+@import "variables";
+@import "mixins";
+
 html {
     font-family: 'Times New Roman', Times, serif;
     font-size: 24px;
 
     body {
-        background-color: rgb(62, 63, 63);
+        background-color: rgb(151, 145, 145);
     
         header {
             background-color: rgb(253, 253, 253);
@@ -18,7 +21,8 @@ html {
         }
     
         footer {
-    
+            background-color: rgb(81, 255, 0);
+            height: 100px;
         }
     }
 }
