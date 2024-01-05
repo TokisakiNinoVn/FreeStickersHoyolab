@@ -3,3 +3,8 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+::selection {
+    background-color: black; /* Màu nền khi bôi đen */
+    color: white; /* Màu chữ khi bôi đen */
+}
