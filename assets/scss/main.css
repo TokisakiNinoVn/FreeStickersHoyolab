@@ -1,5 +1,16 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
 html {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Tinos", serif;
   font-size: 24px;
 }
 html body {
