@@ -4,6 +4,12 @@
     align-items: center;
 }
 
+@mixin flexFull2CenterRow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @mixin flexFull3CenterCollum {
     display: flex;
     justify-content: center;

@@ -15,8 +15,8 @@
     <!-- style css/scss -->
     <link rel="stylesheet" href="./assets/css/style.css">
 
-    <link rel="stylesheet" href="./assets/scss/funtions.css">
-    <link rel="stylesheet" href="./assets/scss/variable.css">
+    <!-- <link rel="stylesheet" href="./assets/scss/funtions.css"> -->
+    <!-- <link rel="stylesheet" href="./assets/scss/variable.css"> -->
     <link rel="stylesheet" href="./assets/scss/main.css">
     
 </head>
@@ -54,20 +54,42 @@
     </header>
 
     <div class="container">
-        <div class="contents">
-            <span class="wihsfv">Lots of cute stickers from Hoyolab for you.</span>
-        </div>
-        <div class="search_navbar">
-            <div class="search_main">
-                <ion-icon name="search-outline"></ion-icon>
-                <input type="text" placeholder="Search for stickers">
+        <div class="main_container">
+            <div class="contents">
+                <span class="wihsfv">Lots of cute stickers from Hoyolab for you.</span>
             </div>
-        </div>
+            <div class="search_navbar">
+                <div class="search_main">
+                    <ion-icon name="search-outline"></ion-icon>
+                    <input type="text" placeholder="Search for stickers">
+                </div>
+                <span class="filter">
+                    <ion-icon name="options-outline"></ion-icon>
+                </span>
 
-        <div class="render_sticker">
-            <div class="main_rander"></div>
+            </div>
+    
+            <div class="render_sticker">
+                <div id="main_rander"></div>
+            </div>
+            <!-- <div class="fillter_search">
+                <label for="gameSelect">Select Game:</label>
+                <select id="gameSelect" onchange="filterCharacters()">
+                    <option value="all">All Games</option>
+                    <option value="GI">Genshin Impact</option>
+                    <option value="HI3">Honkai Impact 3rd</option>
+                    <option value="HSR">Honkai Star Rail</option>
+                </select>
+
+                <label for="characterSearch">Search Character:</label>
+                <input type="text" id="characterSearch" oninput="filterCharacters()" placeholder="Enter character name">
+            
+                <div id="characterList"></div>
+            </div> -->
         </div>
     </div>
+
+
     
     <footer>
         <div class="footer-content">
@@ -83,7 +105,7 @@
     </footer>
 
 
-    <script src="./assets/scripts/main.js"></script>
+    <!-- <script src="./assets/scripts/main.js"></script> -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
