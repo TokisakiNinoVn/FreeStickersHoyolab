@@ -82,32 +82,28 @@ const listLinkSticker = [
 
 
 
+// const mainRenderDiv = document.getElementById('main_rander');
 
+// // Duyệt qua mảng listLinkStickerconst mainRenderDiv = document.getElementById('main_rander');
 
-
-
-const mainRenderDiv = document.getElementById('main_rander');
-
-// Duyệt qua mảng listLinkStickerconst mainRenderDiv = document.getElementById('main_rander');
-
-if (mainRenderDiv) {
-    listLinkSticker.forEach((sticker, indexSticker) => {
-        if (sticker && sticker.charactersInfor) {
-            sticker.charactersInfor.forEach((character, indexCharacter) => {
-                if (character && character.images) {
-                    character.images.forEach((imageUrl, indexImage) => {
-                        const imgElement = document.createElement('img');
-                        imgElement.src = imageUrl;
-                        mainRenderDiv.appendChild(imgElement);
-                    });
-                } else {
-                    console.error(`Missing 'images' property in character[${indexCharacter}] of sticker[${indexSticker}]`);
-                }
-            });
-        } else {
-            console.error(`Missing 'charactersInfor' property in sticker[${indexSticker}]`);
-        }
-    });
-} else {
-    console.error("Element with id 'main_rander' not found");
-}
+// if (mainRenderDiv) {
+//     listLinkSticker.forEach((sticker, indexSticker) => {
+//         if (sticker && sticker.charactersInfor) {
+//             sticker.charactersInfor.forEach((character, indexCharacter) => {
+//                 if (character && character.images) {
+//                     character.images.forEach((imageUrl, indexImage) => {
+//                         const imgElement = document.createElement('img');
+//                         imgElement.src = imageUrl;
+//                         mainRenderDiv.appendChild(imgElement);
+//                     });
+//                 } else {
+//                     console.error(`Missing 'images' property in character[${indexCharacter}] of sticker[${indexSticker}]`);
+//                 }
+//             });
+//         } else {
+//             console.error(`Missing 'charactersInfor' property in sticker[${indexSticker}]`);
+//         }
+//     });
+// } else {
+//     console.error("Element with id 'main_rander' not found");
+// }

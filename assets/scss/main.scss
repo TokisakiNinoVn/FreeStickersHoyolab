@@ -158,8 +158,59 @@ html {
         }
     
         footer {
-            background-color: rgb(203, 255, 178);
-            height: 100px;
+            width: 100vw;
+            background-color: rgb(238, 230, 230);
+            display: flex;
+            padding: 10px 0px 10px 0px;
+            .footer-content {
+                // height: 500px;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                width: 100%;
+    
+                .left_content {
+                    // width: 40%;
+                    img {
+                        width: 400px;
+                        // margin: 20px 0px;
+                    }
+                }
+                .right_content {
+                    span.title_dev {
+                        display: flex;
+                        font-size: 24px;
+                        font-weight: bold;
+                        width: 100%;
+                        justify-content: center;
+                        margin-bottom: 10px;
+                    }
+
+                    .all_dev {
+                        display: flex;
+    
+                        .infor_dev {
+                            display: flex;
+                            justify-content: center;
+                            flex-direction: column;
+                            align-items: center;
+                            margin-right: 20px;
+    
+                            .avt_github {
+                                width: 100px;
+                                border-radius: 50%;
+                                border: 3px double rgb(226, 108, 220);
+                            }
+
+                            .name_dev {
+                                &:hover {
+                                    color: royalblue;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
