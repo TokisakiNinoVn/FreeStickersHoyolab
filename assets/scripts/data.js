@@ -218,7 +218,17 @@ document.addEventListener("DOMContentLoaded", function () {
     getRandomImages();
 
     const input_search = document.querySelector('.input_search');
-    input_search.addEventListener('', function () {
-        search();
+    input_search.addEventListener('input', function () {
+        let valueInput = input_search.value;
+        if(valueInput == 0 || valueInput === '') {
+            getRandomImages();
+        }
+    });
+    
+    input_search.addEventListener('change', function () {
+        let valueInput = input_search.value;
+        if(valueInput == 0 || valueInput === '') {
+            getRandomImages();
+        }
     });
 });
