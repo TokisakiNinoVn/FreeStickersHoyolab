@@ -52,19 +52,37 @@
             </div>
         </div>
     </header>
+
     <div class="contents">
         <span class="wihsfv">Lots of cute stickers from Hoyolab for you.</span>
         <span class="wihsfv_">Tons of stickers for you to use on discord, you can send it around servers or friends.🍀</span>
     </div>
+
+    <!-- <div class="search_navbar">
+        <div class="search_main">
+            <ion-icon name="search-outline"></ion-icon>
+            <input class="input_search" type="text" placeholder="Search for stickers...">
+            <span class="filter">
+                <ion-icon name="options-outline"></ion-icon>
+            </span>
+        </div>
+    </div> -->
     <div class="search_navbar">
         <div class="search_main">
             <ion-icon name="search-outline"></ion-icon>
-            <input class="input_search" type="text" placeholder="Search for stickers">
+            <input class="input_search" type="text" placeholder="Search for stickers..." oninput="search()">
+            <span class="paste">
+                <ion-icon name="clipboard-outline"></ion-icon>
+            </span>
+            <span class="clear_input">
+                <ion-icon name="close-outline"></ion-icon>
+            </span>
             <span class="filter">
                 <ion-icon name="options-outline"></ion-icon>
             </span>
         </div>
     </div>
+    
 
     <div class="container">
         <div class="main_container">
@@ -74,7 +92,29 @@
         </div>
     </div>
 
-
+    <div class="box_fill">
+        <ion-icon name="close-outline"></ion-icon>
+        <div class="main_box_fill">
+            <div class="fill_gender">
+                <select name="" id="">
+                    <option value="">Gender</option>
+                    <option value="">Male</option>
+                    <option value="">Female</option>
+                </select>
+            </div>
+            <div class="fill_land">
+                <select name="" id="">
+                    <option value="">All Land</option>
+                    <option value="">Mondstadt</option>
+                    <option value="">Liyue</option>
+                    <option value="">Inazuma</option>
+                    <option value="">Sumeru</option>
+                    <option value="">Fontaine</option>
+                </select>
+            </div>
+            <ion-icon name="checkmark-outline"></ion-icon>
+        </div>
+    </div>
     
     <footer>
         <div class="footer-content">

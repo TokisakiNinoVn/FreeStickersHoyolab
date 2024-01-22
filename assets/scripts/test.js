@@ -53,7 +53,8 @@ const linkImgGenshinImpact = [
             {
                 name: ['Ei', 'Raiden Shogun'],
                 images: [
-                        'https://upload-os-bbs.hoyolab.com/upload/2023/12/28/4bb1fdde040fa06122b047dfe518ea7d_7012957660689990894.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/12/28/4bb1fdde040fa06122b047dfe518ea7d_7012957660689990894.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/02/23/c0739c8c34bae5b3ee8749ef77b9384e_5736952483423015425.png',
                 ],
             },
         ],
@@ -104,3 +105,70 @@ const linkImgGenshinImpact = [
     },
     
 ]
+
+// function search() {
+//     const searchTerm = document.querySelector('.input_search').value.toLowerCase();
+//     const resultContainer = document.getElementById('main_rander');
+//     resultContainer.innerHTML = '';
+
+//     linkImgGenshinImpact.forEach(land => {
+//         [land.male, land.female].flat().forEach(character => {
+//             const characterNames = character.name.map(name => name.toLowerCase());
+//             if (characterNames.includes(searchTerm)) {
+//                 character.images.forEach(image => {
+//                     if (image) {
+//                         const imgElement = document.createElement('img');
+//                         imgElement.src = image;
+//                         imgElement.alt = characterNames.join(', ');
+//                         imgElement.classList.add('result-item');
+//                         resultContainer.appendChild(imgElement);
+//                     } else {
+//                         // alert('No image available for this character.');
+//                     }
+//                 });
+//             }
+//         });
+//     });
+// }
+
+// function copyImageLink(link) {
+//     navigator.clipboard.writeText(link).then(() => {
+//         alert('Image link copied to clipboard!');
+//     }).catch(err => {
+//         console.error('Unable to copy image link', err);
+//     });
+// }
+
+function search() {
+    const searchTerm = document.querySelector('.input_search').value.toLowerCase();
+    const resultContainer = document.getElementById('main_rander');
+    resultContainer.innerHTML = '';
+
+    linkImgGenshinImpact.forEach(land => {
+        [land.male, land.female].flat().forEach(character => {
+            const characterNames = character.name.map(name => name.toLowerCase());
+            if (characterNames.includes(searchTerm)) {
+                character.images.forEach(image => {
+                    if (image) {
+                        const imgElement = document.createElement('img');
+                        imgElement.src = image;
+                        imgElement.alt = characterNames.join(', ');
+                        imgElement.classList.add('result-item');
+                        imgElement.addEventListener('click', () => copyImageLink(image));
+                        resultContainer.appendChild(imgElement);
+                    } else {
+                        // alert('No image available for this character.');
+                    }
+                });
+            }
+        });
+    });
+}
+
+function copyImageLink(link) {
+    navigator.clipboard.writeText(link).then(() => {
+        alert('Image link copied to clipboard!');
+    }).catch(err => {
+        console.error('Unable to copy image link', err);
+    });
+}
