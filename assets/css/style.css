@@ -9,12 +9,6 @@
     color: white; /* Màu chữ khi bôi đen */
 }
 
-ul::marker,
-li::marker {
-    display: none !important;
-    visibility: hidden;
-}
-
 ul, li {
     list-style: none;
 }
