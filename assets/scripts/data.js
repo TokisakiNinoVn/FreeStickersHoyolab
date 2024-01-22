@@ -231,4 +231,11 @@ document.addEventListener("DOMContentLoaded", function () {
             getRandomImages();
         }
     });
+
+    const inputSearch = document.querySelector(".input_search");
+    const clearInputBtn = document.querySelector(".clear_input");
+    const pasteBtn = document.querySelector(".paste");
+    clearInputBtn.addEventListener("click", function() {
+        getRandomImages();
+    });
 });
