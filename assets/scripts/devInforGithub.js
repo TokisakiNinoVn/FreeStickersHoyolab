@@ -1,4 +1,4 @@
-
+// Update Avatar Github Account Dev
 function fetchAndSetAvatar(username, avatarElementClass) {
     const apiUrl = `https://api.github.com/users/${username}`;
     fetch(apiUrl)
