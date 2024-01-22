@@ -1,5 +1,5 @@
 
-// import { search } from './data.js';
+
 document.addEventListener("DOMContentLoaded", () => {
     const openFill = document.querySelector(".filter");
     const closeFill = document.querySelector(".close_fill");
@@ -17,7 +17,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const pasteBtn = document.querySelector(".paste");
     clearInputBtn.addEventListener("click", function() {
         inputSearch.value = "";
-        // search();
     });
     pasteBtn.addEventListener("click", function () { 
         navigator.clipboard.readText().then(function(clipboardData) {
