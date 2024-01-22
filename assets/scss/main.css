@@ -68,6 +68,9 @@ html body header .navbar .iauj ul li a {
 html body header .navbar .iauj ul li a:hover {
   color: royalblue;
 }
+html body header .navbar .iauj ul li a ion-icon {
+  margin-right: 5px;
+}
 html body header .navbar .iauj ul li:last-child {
   margin-right: 0px;
 }
