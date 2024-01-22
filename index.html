@@ -93,26 +93,33 @@
     </div>
 
     <div class="box_fill">
-        <ion-icon name="close-outline"></ion-icon>
         <div class="main_box_fill">
+            <span class="icon_toll_fill close_fill">
+                <ion-icon name="close-outline"></ion-icon>
+            </span>
             <div class="fill_gender">
-                <select name="" id="">
-                    <option value="">Gender</option>
-                    <option value="">Male</option>
-                    <option value="">Female</option>
+                <select name="" id="fill_gender">
+                    <option value="all_gender">Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
                 </select>
             </div>
             <div class="fill_land">
-                <select name="" id="">
-                    <option value="">All Land</option>
-                    <option value="">Mondstadt</option>
-                    <option value="">Liyue</option>
-                    <option value="">Inazuma</option>
-                    <option value="">Sumeru</option>
-                    <option value="">Fontaine</option>
+                <select name="" id="fill_land">
+                    <option value="all_land">All Land</option>
+                    <option value="mondstadt">Mondstadt</option>
+                    <option value="liyue">Liyue</option>
+                    <option value="inazuma">Inazuma</option>
+                    <option value="sumeru">Sumeru</option>
+                    <option value="fontaine">Fontaine</option>
                 </select>
             </div>
-            <ion-icon name="checkmark-outline"></ion-icon>
+            <span class="icon_toll_fill">
+                <ion-icon name="checkmark-outline"></ion-icon>
+            </span>
+            <span class="icon_toll_fill">
+                <ion-icon name="flash-off-outline"></ion-icon>
+            </span>
         </div>
     </div>
     
@@ -145,7 +152,7 @@
     </footer>
 
 
-    <!-- <script src="./assets/scripts/main.js"></script> -->
+    <script src="./assets/scripts/main.js"></script>
     <script src="./assets/scripts/test.js"></script>
     <script src="./assets/scripts/devInforGithub.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>

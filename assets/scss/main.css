@@ -149,7 +149,7 @@ html body .search_navbar .search_main .filter ion-icon,
 html body .search_navbar .search_main .clear_input ion-icon,
 html body .search_navbar .search_main .paste ion-icon {
   font-size: 24px;
-  padding: 5px;
+  padding: 3px;
   color: rgb(154, 170, 170);
 }
 html body .search_navbar .search_main .filter ion-icon:hover,
@@ -180,6 +180,57 @@ html body div.container .main_container .render_sticker #main_rander img {
 html body div.container .main_container .render_sticker #main_rander img:hover {
   transform: scale(1.1);
   transition: ease-in-out 0.3s;
+}
+html body .box_fill {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(241, 241, 241);
+  height: 100px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  display: none;
+}
+html body .box_fill .main_box_fill {
+  width: 700px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+html body .box_fill .main_box_fill select, html body .box_fill .main_box_fill option {
+  border: unset;
+}
+html body .box_fill .main_box_fill select:focus, html body .box_fill .main_box_fill option:focus {
+  border: unset;
+}
+html body .box_fill .main_box_fill select {
+  font-family: "Tinos", serif;
+  padding: 5px 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  width: 200px;
+}
+html body .box_fill .main_box_fill .icon_toll_fill {
+  color: rgb(154, 170, 170);
+  display: flex;
+  width: 60px;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 5px;
+  border-radius: 3px;
+}
+html body .box_fill .main_box_fill .icon_toll_fill ion-icon {
+  font-size: 30px;
+}
+html body .box_fill .main_box_fill .icon_toll_fill ion-icon:hover {
+  color: royalblue;
+}
+html body .box_fill .main_box_fill .icon_toll_fill:hover {
+  cursor: pointer;
+  background-color: rgb(239, 255, 235);
 }
 html body footer {
   width: 100vw;

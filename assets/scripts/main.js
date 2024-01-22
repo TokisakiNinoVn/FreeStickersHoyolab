@@ -110,16 +110,29 @@ const listLinkSticker = [
 
 
 
-document.addEventListener("contextmenu", function(e) {
-    e.preventDefault();
-});
-document.addEventListener("keydown", function(e) {
-    if (e.ctrlKey && e.shiftKey && (e.keyCode === 73 || e.keyCode === 74)) {
-        e.preventDefault();
-    }
-});
-document.addEventListener("keydown", function(e) {
-    if (e.ctrlKey && e.keyCode === 85) {
-        e.preventDefault();
-    }
+// document.addEventListener("contextmenu", function(e) {
+//     e.preventDefault();
+// });
+// document.addEventListener("keydown", function(e) {
+//     if (e.ctrlKey && e.shiftKey && (e.keyCode === 73 || e.keyCode === 74)) {
+//         e.preventDefault();
+//     }
+// });
+// document.addEventListener("keydown", function(e) {
+//     if (e.ctrlKey && e.keyCode === 85) {
+//         e.preventDefault();
+//     }
+// });
+
+document.addEventListener("DOMContentLoaded", () => { 
+    const openFill = document.querySelector(".filter");
+    const closeFill = document.querySelector(".close_fill");
+    const fillbox = document.querySelector(".box_fill");
+
+    openFill.addEventListener("click", () => {
+        fillbox.classList.add("active");
+    });
+    closeFill.addEventListener("click", () => {
+        fillbox.classList.remove("active");
+    });
 });
