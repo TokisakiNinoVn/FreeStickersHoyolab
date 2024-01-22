@@ -87,12 +87,12 @@
     <div class="container">
         <div class="main_container">
             <div class="render_sticker">
-                <div id="main_rander"></div>
+                <div id="main_rander" class="result-container"></div>
             </div>
         </div>
     </div>
 
-    <div class="box_fill">
+    <!-- <div class="box_fill">
         <div class="main_box_fill">
             <span class="icon_toll_fill close_fill">
                 <ion-icon name="close-outline"></ion-icon>
@@ -114,12 +114,43 @@
                     <option value="fontaine">Fontaine</option>
                 </select>
             </div>
-            <span class="icon_toll_fill">
+            <span class="icon_toll_fill confirm_fill">
                 <ion-icon name="checkmark-outline"></ion-icon>
             </span>
-            <span class="icon_toll_fill">
+            <span class="icon_toll_fill clear_fill">
                 <ion-icon name="flash-off-outline"></ion-icon>
             </span>
+        </div>
+    </div> -->
+
+    <div class="box_fill">
+        <div class="main_box_fill">
+            <div class="fill_land">
+                <select name="" id="fill_land" onchange="search()">
+                    <option value="all_land">All Land</option>
+                    <option value="mondstadt">Mondstadt</option>
+                    <option value="liyue">Liyue</option>
+                    <option value="inazuma">Inazuma</option>
+                    <option value="sumeru">Sumeru</option>
+                    <option value="fontaine">Fontaine</option>
+                </select>
+            </div>
+            <div class="fill_gender">
+                <select name="" id="fill_gender" onchange="search()">
+                    <option value="all_gender">Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <span class="icon_toll_fill close_fill">
+                <ion-icon name="close-outline"></ion-icon>
+            </span>
+            <!-- <span class="icon_toll_fill confirm_fill">
+                <ion-icon name="checkmark-outline"></ion-icon>
+            </span> -->
+            <!-- <span class="icon_toll_fill clear_fill">
+                <ion-icon name="flash-off-outline"></ion-icon>
+            </span> -->
         </div>
     </div>
     
