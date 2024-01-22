@@ -106,119 +106,32 @@ const linkImgGenshinImpact = [
     
 ]
 
-// function search() {
-//     const searchTerm = document.querySelector('.input_search').value.toLowerCase();
-//     const resultContainer = document.getElementById('main_rander');
-//     resultContainer.innerHTML = '';
 
-//     linkImgGenshinImpact.forEach(land => {
-//         [land.male, land.female].flat().forEach(character => {
-//             const characterNames = character.name.map(name => name.toLowerCase());
-//             if (characterNames.includes(searchTerm)) {
-//                 character.images.forEach(image => {
-//                     if (image) {
-//                         const imgElement = document.createElement('img');
-//                         imgElement.src = image;
-//                         imgElement.alt = characterNames.join(', ');
-//                         imgElement.classList.add('result-item');
-//                         resultContainer.appendChild(imgElement);
-//                     } else {
-//                         // alert('No image available for this character.');
-//                     }
-//                 });
-//             }
-//         });
-//     });
-// }
+function search_() {
+    const searchTerm = document.querySelector('.input_search').value.toLowerCase();
+    const resultContainer = document.getElementById('main_rander');
+    resultContainer.innerHTML = '';
 
-// function copyImageLink(link) {
-//     navigator.clipboard.writeText(link).then(() => {
-//         alert('Image link copied to clipboard!');
-//     }).catch(err => {
-//         console.error('Unable to copy image link', err);
-//     });
-// }
-
-// function search() {
-//     const searchTerm = document.querySelector('.input_search').value.toLowerCase();
-//     const resultContainer = document.getElementById('main_rander');
-//     resultContainer.innerHTML = '';
-
-//     linkImgGenshinImpact.forEach(land => {
-//         [land.male, land.female].flat().forEach(character => {
-//             const characterNames = character.name.map(name => name.toLowerCase());
-//             if (characterNames.includes(searchTerm)) {
-//                 character.images.forEach(image => {
-//                     if (image) {
-//                         const imgElement = document.createElement('img');
-//                         imgElement.src = image;
-//                         imgElement.alt = characterNames.join(', ');
-//                         imgElement.classList.add('result-item');
-//                         imgElement.addEventListener('click', () => copyImageLink(image));
-//                         resultContainer.appendChild(imgElement);
-//                     } else {
-//                         // alert('No image available for this character.');
-//                     }
-//                 });
-//             }
-//         });
-//     });
-// }
-
-
-
-
-
-
-
-
-
-
-
-
-// function search() {
-//     const genderFilter = document.getElementById('fill_gender').value;
-//     const landFilter = document.getElementById('fill_land').value;
-//     const resultContainer = document.getElementById('main_rander');
-//     resultContainer.innerHTML = '';
-
-//     linkImgGenshinImpact.forEach(land => {
-//         if ((landFilter === 'all_land' || landFilter === land.land.toLowerCase()) &&
-//             (genderFilter === 'all_gender' || land.male.some(character => character.name.length > 0) && genderFilter === 'male' || land.female.some(character => character.name.length > 0) && genderFilter === 'female')) {
-//             [land.male, land.female].flat().forEach(character => {
-//                 const characterNames = character.name.map(name => name.toLowerCase());
-//                 character.images.forEach(image => {
-//                     if (image) {
-//                         const imgElement = document.createElement('img');
-//                         imgElement.src = image;
-//                         imgElement.alt = characterNames.join(', ');
-//                         imgElement.classList.add('result-item');
-//                         imgElement.addEventListener('click', () => copyImageLink(image));
-//                         resultContainer.appendChild(imgElement);
-//                     } else {
-//                         // alert('No image available for this character.');
-//                     }
-//                 });
-//             });
-//         }
-//     });
-// }
-
-// function copyImageLink(link) {
-//     navigator.clipboard.writeText(link).then(() => {
-//         alert('Image link copied to clipboard!');
-//     }).catch(err => {
-//         console.error('Unable to copy image link', err);
-//     });
-// }
-
-
-
-
-
-
-
-
+    linkImgGenshinImpact.forEach(land => {
+        [land.male, land.female].flat().forEach(character => {
+            const characterNames = character.name.map(name => name.toLowerCase());
+            if (characterNames.includes(searchTerm)) {
+                character.images.forEach(image => {
+                    if (image) {
+                        const imgElement = document.createElement('img');
+                        imgElement.src = image;
+                        imgElement.alt = characterNames.join(', ');
+                        imgElement.classList.add('result-item');
+                        imgElement.addEventListener('click', () => copyImageLink(image));
+                        resultContainer.appendChild(imgElement);
+                    } else {
+                        // alert('No image available for this character.');
+                    }
+                });
+            }
+        });
+    });
+}
 
 function search() {
     const genderFilter = document.getElementById('fill_gender').value;
@@ -254,6 +167,11 @@ function renderCharacters(genderFilter, landFilter) {
     });
 }
 
+
+
+
+
+
 function copyImageLink(link) {
     navigator.clipboard.writeText(link).then(() => {
         alert('Image link copied to clipboard!');
@@ -263,16 +181,7 @@ function copyImageLink(link) {
 }
 
 
-
-
-
-
-
-
-
-
-document.addEventListener("DOMContentLoaded", function() {
-
+document.addEventListener("DOMContentLoaded", function () {
     function getRandomImages() {
         const resultContainer = document.getElementById('main_rander');
         resultContainer.innerHTML = '';
@@ -307,4 +216,9 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     getRandomImages();
+
+    const input_search = document.querySelector('.input_search');
+    input_search.addEventListener('', function () {
+        search();
+    });
 });
