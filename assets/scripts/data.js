@@ -168,10 +168,6 @@ function renderCharacters(genderFilter, landFilter) {
 }
 
 
-
-
-
-
 function copyImageLink(link) {
     navigator.clipboard.writeText(link).then(() => {
         alert('Image link copied to clipboard!');
@@ -179,7 +175,6 @@ function copyImageLink(link) {
         console.error('Unable to copy image link', err);
     });
 }
-
 
 document.addEventListener("DOMContentLoaded", function () {
     function getRandomImages() {
@@ -232,9 +227,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    const inputSearch = document.querySelector(".input_search");
     const clearInputBtn = document.querySelector(".clear_input");
-    const pasteBtn = document.querySelector(".paste");
     clearInputBtn.addEventListener("click", function() {
         getRandomImages();
     });
