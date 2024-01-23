@@ -1,32 +1,6 @@
 import { linkImgGenshinImpact } from './data.js';
 
-function search_() {
-    const searchTerm = document.querySelector('.input_search').value.toLowerCase();
-    const resultContainer = document.getElementById('main_rander');
-    resultContainer.innerHTML = '';
-
-    linkImgGenshinImpact.forEach(land => {
-        [land.male, land.female].flat().forEach(character => {
-            const characterNames = character.name.map(name => name.toLowerCase());
-            if (characterNames.includes(searchTerm)) {
-                character.images.forEach(image => {
-                    if (image) {
-                        const imgElement = document.createElement('img');
-                        imgElement.src = image;
-                        imgElement.alt = characterNames.join(', ');
-                        imgElement.classList.add('result-item');
-                        imgElement.addEventListener('click', () => copyImageLink(image));
-                        resultContainer.appendChild(imgElement);
-                    } else {
-                        // alert('No image available for this character.');
-                    }
-                });
-            }
-        });
-    });
-}
-
-function search() {
+export function search() {
     const genderFilter = document.getElementById('fill_gender').value;
     const landFilter = document.getElementById('fill_land').value;
 
@@ -125,3 +99,29 @@ document.addEventListener("DOMContentLoaded", function () {
         getRandomImages();
     });
 });
+
+export function search_() {
+    const searchTerm = document.querySelector('.input_search').value.toLowerCase();
+    const resultContainer = document.getElementById('main_rander');
+    resultContainer.innerHTML = '';
+
+    linkImgGenshinImpact.forEach(land => {
+        [land.male, land.female].flat().forEach(character => {
+            const characterNames = character.name.map(name => name.toLowerCase());
+            if (characterNames.includes(searchTerm)) {
+                character.images.forEach(image => {
+                    if (image) {
+                        const imgElement = document.createElement('img');
+                        imgElement.src = image;
+                        imgElement.alt = characterNames.join(', ');
+                        imgElement.classList.add('result-item');
+                        imgElement.addEventListener('click', () => copyImageLink(image));
+                        resultContainer.appendChild(imgElement);
+                    } else {
+                        // alert('No image available for this character.');
+                    }
+                });
+            }
+        });
+    });
+}

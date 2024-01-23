@@ -1,4 +1,5 @@
-
+// import { search_ } from "./data.js";
+import { search, search_ } from "./processingData.js";
 
 document.addEventListener("DOMContentLoaded", () => {
     const openFill = document.querySelector(".filter");
@@ -25,7 +26,22 @@ document.addEventListener("DOMContentLoaded", () => {
                 console.error('Unable to read clipboard data', err);
             });
     });
+
+    inputSearch.addEventListener("input", () => {
+        search_();
+    });
+
+    const fillLand = document.getElementById('fill_land')
+    const fillGender = document.getElementById('fill_gender')
+    fillLand.addEventListener('change', () => {
+        search();
+    });
+    fillGender.addEventListener('change', () => {
+        search();
+    });
 });
+
+
 
 
 // document.addEventListener("contextmenu", function(e) {
