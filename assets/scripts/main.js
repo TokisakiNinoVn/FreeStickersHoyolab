@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", () => {
     pasteBtn.addEventListener("click", function () { 
         navigator.clipboard.readText().then(function(clipboardData) {
                 inputSearch.value = clipboardData;
+                search();
             }).catch(function(err) {
                 console.error('Unable to read clipboard data', err);
             });
