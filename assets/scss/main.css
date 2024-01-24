@@ -160,13 +160,13 @@ html body .search_navbar .search_main .paste ion-icon:hover {
 html body div.container {
   margin-top: 100px;
   width: 100%;
-  height: 1000px;
   display: flex;
   justify-content: center;
 }
 html body div.container .main_container {
   width: 1120px;
   padding: 20px;
+  padding-bottom: 50px;
 }
 html body div.container .main_container .render_sticker #main_rander {
   display: flex;
