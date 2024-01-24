@@ -109,7 +109,7 @@ export const linkImgGenshinImpact = [
                 ],
             },
             {
-                name: ['Fontaine', 'Cryo', 'Băng', 'Freminet'],
+                name: ['Fontaine', 'Cryo', 'Freminet'],
                 images: [
                     'https://upload-os-bbs.hoyolab.com/upload/2023/11/17/ed7e49250ae0a57a27a8d829721c439f_2622842278920165888.png',
                     'https://upload-os-bbs.hoyolab.com/upload/2023/11/17/1bca82c45b928f1355ba87ef97d48440_3877449897577728803.png',
