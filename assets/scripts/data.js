@@ -42,7 +42,7 @@ export const linkImgGenshinImpact = [
         land: 'Inazuma',
         male: [
             {
-                name: ['Kamisato Ayato', 'Ayato'],
+                name: ['Kamisato', 'Kamisato Ayato', 'Ayato'],
                 images: [
                     'https://upload-os-bbs.hoyolab.com/upload/2023/12/28/e2c20d37a90e5d3216bf237fc05516fd_787843168069341004.png',
                     '',
@@ -61,7 +61,7 @@ export const linkImgGenshinImpact = [
                 ],
             },
             {
-                name: ['Kamisato Ayaka', 'Ayaka'],
+                name: ['Kamisato', 'Kamisato Ayaka', 'Ayaka'],
                 images: [
                     'https://upload-os-bbs.hoyolab.com/upload/2023/12/28/82444ce1a66aa7ed8f09e38a960741c4_438748924680795038.png',
                     'https://upload-os-bbs.hoyolab.com/upload/2023/12/28/bd754deeab9869e9ad3c9bb98f99e95c_5141700034784822446.png',
