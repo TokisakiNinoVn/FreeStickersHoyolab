@@ -4,21 +4,39 @@ export const linkImgGenshinImpact = [
         land: 'Mondstadt',
         male: [
             {
-                name: ['Mondstadt', 'Archon', 'Ameno', 'Venti'],
+                name: ['Mondstadt', '', ''],
                 images: [
-                    'https://upload-os-bbs.hoyolab.com/upload/2023/10/19/a7d7a19cf6a0c614a708eee7b5fbcb92_8300777374635943197.png',
-                    'https://upload-os-bbs.hoyolab.com/upload/2023/10/19/95f7ce69efa0051fbc642be7049f453c_4796262262420034755.png',
+                    '',
+                    '',
                     '',
                     '',
                 ],
             },
             {
-                name: ['Mondstadt', '', 'Cryo', 'Mika'],
+                name: ['Mondstadt', 'Pyro', 'Bennet'],
                 images: [
+                    'https://upload-os-bbs.hoyolab.com/upload/2022/12/15/3ed911a2b27f6c59a45a436507be2e73_778620903120465496.png',
                     '',
                     '',
                     '',
+                ],
+            },
+            {
+                name: ['Mondstadt', 'Archon', 'Anemo', 'Venti'],
+                images: [
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/10/19/a7d7a19cf6a0c614a708eee7b5fbcb92_8300777374635943197.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/10/19/95f7ce69efa0051fbc642be7049f453c_4796262262420034755.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/03/09/fc79c66755518259c4ffc79aac6f75fd_2448632331411135484.png',
                     '',
+                ],
+            },
+            {
+                name: ['Mondstadt', 'Cryo', 'Mika'],
+                images: [
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/03/09/fcdedec54944f959f3a3dd0d61cf749d_4241234058992138968.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/03/09/a7f1fc26ce84a3c8b64af3ddb436877c_6426878654643374045.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/03/09/9189a2afa7dda032dcfd4e3f780cb460_1061507970760512475.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/10/19/c0f986a57cd2209713127cd625e2c523_8588140991239489391.png',
                 ],
             },
             {
@@ -33,15 +51,6 @@ export const linkImgGenshinImpact = [
                     '',
                 ],
             },
-            {
-                name: ['Mondstadt', 'Cryo', 'Mika'],
-                images: [
-                    'https://upload-os-bbs.hoyolab.com/upload/2023/10/19/c0f986a57cd2209713127cd625e2c523_8588140991239489391.png',
-                    '',
-                    '',
-                    '',
-                ],
-            },
         ],
         female: [
             {
@@ -50,6 +59,24 @@ export const linkImgGenshinImpact = [
                     '',
                     '',
                     '',
+                    '',
+                ],
+            },
+            {
+                name: ['Mondstadt', 'Hidro', 'Mona'],
+                images: [
+                    'https://upload-os-bbs.hoyolab.com/upload/2022/12/15/159e1a50b90fc0328460c36597ff9072_4008976986096635464.png',
+                    '',
+                    '',
+                    '',
+                ],
+            },
+            {
+                name: ['Mondstadt', 'Anemo', 'Sucrose'],
+                images: [
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/03/09/211a58254ccb12dc95782ca98afedfff_9065319777096059814.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/03/09/b92daf6d18e7d27689be7d99cfa7df14_6555580066452553443.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2022/12/15/8c9de59d004aac61f2480c97c6a53aa7_3546732941089239322.png',
                     '',
                 ],
             },
@@ -77,7 +104,7 @@ export const linkImgGenshinImpact = [
                 name: ['Mondstadt', 'Cryo', 'Diona'],
                 images: [
                     'https://upload-os-bbs.hoyolab.com/upload/2023/10/19/b3c78bce4f041f7640a17bcaf7be032b_7689055439227192953.png',
-                    '',
+                    'https://upload-os-bbs.hoyolab.com/upload/2022/12/15/159e1a50b90fc0328460c36597ff9072_4008976986096635464.png',
                     '',
                     '',
                 ],
@@ -132,7 +159,7 @@ export const linkImgGenshinImpact = [
                 name: ['Liyue', 'Cryo', 'Chongyun' ],
                 images: [
                     'https://upload-os-bbs.hoyolab.com/upload/2023/10/19/9b60fbbd9595647399da50d39fa0969b_7634916507578557285.png',
-                    '',
+                    'https://upload-os-bbs.hoyolab.com/upload/2022/12/15/ca90b3b524d6444bf021889ae588a695_5888220110173582561.png',
                     '',
                     '',
                 ],
@@ -149,9 +176,60 @@ export const linkImgGenshinImpact = [
         ],
         female: [
             {
-                name: ['Liyue', 'Electron', ],
+                name: ['Liyue', '', ],
                 images: [
-                        '',
+                    '',
+                    '',
+                    '',
+                    '',
+                    '',
+                    '',
+                ],
+            },
+            {
+                name: ['Liyue', 'Pyro', 'Xiangling'],
+                images: [
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/01/19/ad52d89a8ff9213e9afd09abd1fd503b_7321128365628134403.png',
+                    '',
+                    '',
+                    '',
+                    '',
+                    '',
+                ],
+            },
+            {
+                name: ['Liyue', 'Geo', 'Ningguang'],
+                images: [
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/01/19/618246d132012a34ae35b5351fe7c4d9_4987764301455935805.png',
+                    '',
+                    '',
+                    '',
+                    '',
+                ],
+            },
+            {
+                name: ['Liyue', 'Hydro', 'Yelan'],
+                images: [
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/01/19/31b1e5f9445f6010db7378923b9e70e5_8901588253733948385.png',
+                    '',
+                    '',
+                    '',
+                    '',
+                ],
+            },
+            {
+                name: ['Liyue', 'Dendro', 'Yaoyao' ],
+                images: [
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/01/19/7e9bdf125b424f7dc1ab29860d781354_8090450308965355251.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/01/19/22a8b886759fdcdeba05a159f869d927_1664450083534489297.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/01/19/12dbbb9e8e9e802a0989c4a7d2c7be62_6457288122932938727.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/01/19/d3a4f8c9ec6cef87469988abf69213c0_2890765342708885459.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/01/19/fd28d37feb8d089f319fecc45ad32a82_3664746606048278358.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/01/19/c5e01fcb88cda76206e9617dc5d0c86c_2777293561037503980.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/01/19/4253075bbb86a94823c84abf288d53f4_7207246685413596334.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/01/19/b62f0c1f2d305d3161c15e3f23b97802_5434670898994208547.png',
+                    '',
+                    '',
                 ],
             },
             {
@@ -160,6 +238,8 @@ export const linkImgGenshinImpact = [
                     'https://upload-os-bbs.hoyolab.com/upload/2023/10/19/c1282cf04cde83330e9fc9666173791c_536919614532516805.png',
                     'https://upload-os-bbs.hoyolab.com/upload/2023/10/19/87e9f232d0237cb6428c82cac369d62d_6982841580356423170.png',
                     'https://upload-os-bbs.hoyolab.com/upload/2023/05/26/7b135dba62078c8be4d7610fd64c3371_2908653980388562036.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/01/19/a07d529439a703cc347229ebe7cc4812_5656260893594388771.png',
+                    '',
                     '',
                 ],
             },
@@ -253,7 +333,7 @@ export const linkImgGenshinImpact = [
                 images: [
                     'https://upload-os-bbs.hoyolab.com/upload/2023/12/28/82444ce1a66aa7ed8f09e38a960741c4_438748924680795038.png',
                     'https://upload-os-bbs.hoyolab.com/upload/2023/12/28/bd754deeab9869e9ad3c9bb98f99e95c_5141700034784822446.png',
-                    '',
+                    'https://upload-os-bbs.hoyolab.com/upload/2022/12/15/390e848e887542dc2762740274430af5_3716645045143934268.png',
                     '',
                 ],
             },
@@ -280,9 +360,25 @@ export const linkImgGenshinImpact = [
                 ],
             },
             {
+                name: ['Sumeru', 'Dendro', 'Alhaitham'],
+                images: [
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/01/19/bfce38468ea0d98333b7cf24cad33741_3456436699719131031.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/01/19/87f773c693a40f84a2951af020c15f10_7964511803095179218.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/01/19/de983f0f0289f63838b9aa6975f2150e_2089721214387717944.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/01/19/6ead890e175bb4db2436b34f4c24dfc7_4599796888460912842.png',
+                    '',
+                    '',
+                    '',
+                ],
+            },
+            {
                 name: ['Sumeru', 'Dendro', 'Tighnari'],
                 images: [
                     'https://upload-os-bbs.hoyolab.com/upload/2023/05/06/f5ad780dff671299c6df561e29b8e5e8_6098358153454776629.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/03/09/64caf1ba265176cf862b021c32ba89a3_8211743366151772118.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/03/09/8c6241ff5c399f2e4a90e1ad16a85633_7474930222533641337.png',
+                    '',
+                    '',
                     '',
                     '',
                     '',
@@ -306,6 +402,9 @@ export const linkImgGenshinImpact = [
                 images: [
                     'https://upload-os-bbs.hoyolab.com/upload/2023/05/26/746a1c62d20254ee4b89dceddbe35835_1840354919977737812.png',
                     'https://upload-os-bbs.hoyolab.com/upload/2023/05/06/9d102fbf40f048be6a7df7dded3ad5be_2191484360217274558.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/03/09/afaf80300ab4a303d075d42c0a905379_2424205515373385687.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/03/09/769507e3efc5585a9f2c304368013085_3857939236858892837.png',
+                    '',
                     '',
                     '',
                 ],
@@ -316,6 +415,12 @@ export const linkImgGenshinImpact = [
                     'https://upload-os-bbs.hoyolab.com/upload/2023/07/19/3b2ce8094a2060ced0f45ab3a38b97d3_365842272525510755.png',
                     'https://upload-os-bbs.hoyolab.com/upload/2023/07/17/7f403b7bd36ca4aa135c0eff1192a16c_5804396311201633813.png',
                     'https://upload-os-bbs.hoyolab.com/upload/2023/05/06/efff6e7e2807597edd0007b843238e5b_5256042736721132640.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2022/12/15/92050d959d81cb0b4ac41529b2b255b2_5144836266222354595.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2022/12/15/6b2ced96013df68bbb96e47f48b9149b_6370245892633842308.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2022/12/15/91e5c17f53465a3e00b1c6228d3cc9d3_1336809931742156094.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2022/12/15/7e947fa0339b53ee6c9c9598b39c6dcb_3582054124671947916.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2022/12/15/20b79e7eb3d1c52c8e0dfda9f3b6a3fe_416587859888101815.png',
+                    '',
                     '',
                     '',
                     '',
@@ -330,10 +435,23 @@ export const linkImgGenshinImpact = [
                 ],
             },
             {
+                name: ['Sumeru', 'Pyro', 'Dehya'],
+                images: [
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/03/09/3fc370a514d996f4cc02e2b8d66ef376_6639501178508343311.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/03/09/5e20c165731090e4c048aab53d2caf52_4069388620028759504.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/03/09/8999b21230301d90ad916b12c652d146_1288626891826173128.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/03/09/6f40710bbe67f666779841e7dfcf26f0_6279451797371878898.png',
+                    '',
+                ],
+            },
+            {
                 name: ['Sumeru', 'Anome', 'Faruzan'],
                 images: [
                     'https://upload-os-bbs.hoyolab.com/upload/2023/05/06/e62996a81f75ee030730f981a4203c49_4301153847037532797.png',
-                    '',
+                    'https://upload-os-bbs.hoyolab.com/upload/2022/12/15/109a668512ddc85c1267e83d4b247754_5297696880513246823.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2022/12/15/56edbd93056ca367df366998aeb7af4a_8521741533006099309.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2022/12/15/73cd5445b1421438911868eed9e97d45_2823261319422069358.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2022/12/15/f0004d90ec94aa92f4f1fc7d71a0043f_2866305632280889050.png',
                     '',
                     '',
                 ],
@@ -342,7 +460,10 @@ export const linkImgGenshinImpact = [
                 name: ['Sumeru', 'Cryo', 'Layla'],
                 images: [
                     'https://upload-os-bbs.hoyolab.com/upload/2023/05/06/e6179bcfb6132210521a3529e922af63_296193854759854697.png',
-                    '',
+                    'https://upload-os-bbs.hoyolab.com/upload/2022/11/23/1d973c756c5d51cbde596d21351c9cb0_488315668194864736.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2022/11/23/49aab1c132ea34e70afa547f8095b84c_8939758247969233267.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2022/11/23/bda8fb2894cde8ca00f0772fffc9cb48_4041045366877361250.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2022/11/23/6f0ac2f49034b2e921cdc9c6c77f7a85_6516064932807854321.png',
                     '',
                     '',
                     '',
@@ -353,7 +474,13 @@ export const linkImgGenshinImpact = [
                 images: [
                     'https://upload-os-bbs.hoyolab.com/upload/2023/05/06/54ade97657c02b0e3ad4192b94996424_7838913193413456917.png',
                     'https://upload-os-bbs.hoyolab.com/upload/2023/05/06/32f97f9080d7705ab9a80b1765dccf17_6724888496289072798.png',
-                    '',
+                    'https://upload-os-bbs.hoyolab.com/upload/2022/11/23/ddbd120006802417a071b6957daa5e36_4311735951239316515.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2022/11/23/ddbd120006802417a071b6957daa5e36_4311735951239316515.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2022/11/23/4f79ffc83b2d667280c4088d2186d71c_7411300337195544969.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2022/11/23/03016149c526d6c6722753c452a8dd78_4977637981709430126.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2022/11/23/03016149c526d6c6722753c452a8dd78_4977637981709430126.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2022/11/23/62fe9822ae87555b2adc83b3b9a75331_1895401202972345618.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2022/11/23/1d973c756c5d51cbde596d21351c9cb0_488315668194864736.png',
                     '',
                 ],
             },
@@ -362,6 +489,10 @@ export const linkImgGenshinImpact = [
                 images: [
                     'https://upload-os-bbs.hoyolab.com/upload/2023/07/17/81185bb4047755402becdc2c1098da1a_679659780439464138.png',
                     'https://upload-os-bbs.hoyolab.com/upload/2023/07/17/fd7f13b35ea85ecc6ee3bec86fa03132_1065287963840816542.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/03/09/d364714706dc2079529284e4b535b09c_91584939378926821.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/03/09/e3e988653c1b80d23591b1d7e5a6131a_2360303526164856050.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2022/12/15/80007e303a63d72075fdae8c142232e2_1161841589126813648.png',
+                    '',
                     '',
                     '',
                 ],
@@ -435,7 +566,7 @@ export const linkImgGenshinImpact = [
                 ],
             },
             {
-                name: ['Fontaine', 'Ameno', 'Lynette'],
+                name: ['Fontaine', 'Anemo', 'Lynette'],
                 images: [
                     'https://upload-os-bbs.hoyolab.com/upload/2023/11/17/ee85d55e1fba674da098503a1604e725_6748317473988761702.png',
                     'https://upload-os-bbs.hoyolab.com/upload/2023/08/24/3df91bdccd1fde2fc26788f75506c874_6228419254644359836.png',
