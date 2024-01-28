@@ -23,8 +23,11 @@ export const linkImgGenshinImpact = [
         land: 'Liyue', 
         male: [
             {
-                name: ['Liyue', 'Geo', ],
+                name: ['Liyue', 'Hidro', 'Tartaglia', 'Fatui', 'Childe' ],
                 images: [
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/11/17/c97b932a346c3179d14a9d8c45b14693_3926567950236677155.png',
+                    '',
+                    '',
                     '',
                 ],
             },
@@ -140,6 +143,15 @@ export const linkImgGenshinImpact = [
                 ],
             },
             {
+                name: ['Fontaine', 'Ameno', 'Lynette'],
+                images: [
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/11/17/ee85d55e1fba674da098503a1604e725_6748317473988761702.png',
+                    '',
+                    '',
+                    '',
+                ],
+            },
+            {
                 name: ['Fontaine', 'Archon', 'Hydro', 'Furina'],
                 images: [
                     'https://upload-os-bbs.hoyolab.com/upload/2023/12/28/a3dcdf76051dcad9d499fdf1e29ed607_7876722293804135744.png',
@@ -147,6 +159,16 @@ export const linkImgGenshinImpact = [
                     'https://upload-os-bbs.hoyolab.com/upload/2023/11/17/e1f5b1026d5a0ef8bf25af71e8371e14_1856346621648695686.png',
                     'https://upload-os-bbs.hoyolab.com/upload/2023/11/17/66fb73e569b6b91bd398d253749583db_8867564860876177156.png',
                     'https://upload-os-bbs.hoyolab.com/upload/2023/11/17/90ca98c34ad2c0c6c726faf028585d7f_7433266281512583972.png',
+                ],
+            },
+            {
+                name: ['Fontaine', 'Electron', 'Clorinde'],
+                images: [
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/11/17/fb9aa87393ea093949ae640f0644f34c_9115808074601848149.png',
+                    '',
+                    '',
+                    '',
+                    '',
                 ],
             },
             {
@@ -159,7 +181,7 @@ export const linkImgGenshinImpact = [
                 ],
             },
             {
-                name: ['Fontaine', 'Charlotte'],
+                name: ['Fontaine', 'Cryo','Charlotte'],
                 images: [
                     'https://upload-os-bbs.hoyolab.com/upload/2023/11/17/666405a46dc6028175061164a87e48c6_8041026194871798660.png',
                     'https://upload-os-bbs.hoyolab.com/upload/2023/11/17/5142d3bbe0bae97ce9a2d4aa36d0e19a_5276004962372933640.png',
@@ -170,5 +192,21 @@ export const linkImgGenshinImpact = [
             },
         ],
     },
+
+    {
+        land: 'Fatui',
+        male: [],
+        female: [
+            {
+                name: [ 'Fatui', 'Pyro', 'Arlecchino',],
+                images: [
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/11/17/db9295dedf95ff5490a2cebad330daae_3332154566975809744.png',
+                    '',
+                    '',
+                    '',
+                ],
+            }
+        ],
+    }
     
 ]
