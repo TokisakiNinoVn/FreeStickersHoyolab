@@ -1,4 +1,5 @@
 //Form inforchar + search infor name: ['land', 'Archon?true:false', 'Vision','charname', 'nickname'],
+// tranh cua paimon 7
 export const linkImgGenshinImpact = [
     {
         land: 'Mondstadt',
@@ -265,6 +266,8 @@ export const linkImgGenshinImpact = [
                 images: [
                     'https://upload-bbs.mihoyo.com/upload/2022/06/22/6fb8daedb434abe1560a98af6232c095_4473375398161453907.png',
                     'https://upload-bbs.mihoyo.com/upload/2022/06/22/16c392259ad9546b15c2e5ed8b1fe1d4_1169333300865923840.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/02/23/91d8eeafb8ae3b158eae5a9c503efc79_2994313389762429967.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/02/23/069c8e521150c000675450aab191d584_7316112639016562625.png',
                     '',
                     '',
                 ],
@@ -369,8 +372,8 @@ export const linkImgGenshinImpact = [
                 name: ['Liyue', 'Geo', 'Ningguang'],
                 images: [
                     'https://upload-os-bbs.hoyolab.com/upload/2023/01/19/618246d132012a34ae35b5351fe7c4d9_4987764301455935805.png',
-                    '',
-                    '',
+                    'https://upload-bbs.mihoyo.com/upload/2022/02/23/640bc45716e34bc4c4b05a4e842dfa5f_5709541018789381327.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/02/23/22c1910d56658ec1a7efdb5bfdd33b9d_5789130033983192302.png',
                     '',
                     '',
                 ],
@@ -477,6 +480,14 @@ export const linkImgGenshinImpact = [
         female: [
             {
                 name: ['Inazuma', 'Electron', ''],
+                images: [
+                    '',
+                    '',
+                    '',
+                ],
+            },
+            {
+                name: ['Inazuma', 'Anemo', 'Sazu'],
                 images: [
                     '',
                     '',
@@ -737,10 +748,9 @@ export const linkImgGenshinImpact = [
                 images: [
                     'https://upload-os-bbs.hoyolab.com/upload/2023/05/06/54ade97657c02b0e3ad4192b94996424_7838913193413456917.png',
                     'https://upload-os-bbs.hoyolab.com/upload/2023/05/06/32f97f9080d7705ab9a80b1765dccf17_6724888496289072798.png',
-                    'https://upload-os-bbs.hoyolab.com/upload/2022/11/23/ddbd120006802417a071b6957daa5e36_4311735951239316515.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2022/11/23/64447873241fdd87d9546ac5c2595741_7422246541864962813.png',
                     'https://upload-os-bbs.hoyolab.com/upload/2022/11/23/ddbd120006802417a071b6957daa5e36_4311735951239316515.png',
                     'https://upload-os-bbs.hoyolab.com/upload/2022/11/23/4f79ffc83b2d667280c4088d2186d71c_7411300337195544969.png',
-                    'https://upload-os-bbs.hoyolab.com/upload/2022/11/23/03016149c526d6c6722753c452a8dd78_4977637981709430126.png',
                     'https://upload-os-bbs.hoyolab.com/upload/2022/11/23/03016149c526d6c6722753c452a8dd78_4977637981709430126.png',
                     'https://upload-os-bbs.hoyolab.com/upload/2022/11/23/62fe9822ae87555b2adc83b3b9a75331_1895401202972345618.png',
                     'https://upload-os-bbs.hoyolab.com/upload/2022/11/23/1d973c756c5d51cbde596d21351c9cb0_488315668194864736.png',
@@ -968,8 +978,8 @@ export const linkImgGenshinImpact = [
                     'https://upload-os-bbs.hoyolab.com/upload/2022/11/01/b0ca8f68e4e6774490ca89cee8a7cf2b_3779692930266687896.png', // Cat???
                     'https://upload-os-bbs.hoyolab.com/upload/2022/11/01/81e96a4c2d7c6f9d8abe0d8cfd38d484_1570056176368386502.png',
                     '',
-                    '',
-                    '',
+                    'https://upload-bbs.mihoyo.com/upload/2022/02/23/23329b87ac313e475dba87e39671436d_776486965601631849.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/02/23/41254552ed3424e61f754bc62cfe0569_6341697222245901215.png',
                     '',
                     '',
                     '',
