@@ -27,6 +27,8 @@ export const linkImgGenshinImpact = [
                     'https://upload-os-bbs.hoyolab.com/upload/2023/07/17/c9faf5eb13efc0bc679c7ca16032d37a_1590053616894037539.png',
                     'https://upload-os-bbs.hoyolab.com/upload/2023/07/17/79c2e61211d4d075a93feeeeee712eab_9143330008477200360.png',
                     'https://upload-os-bbs.hoyolab.com/upload/2023/07/17/ef9cdb32d1acfb4ce15d8416e5f8fefb_4855952060329618207.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/05/26/2baa15b3273ea7b0e863524b01f12006_4422461647779866521.png',
+                    '',
                     '',
                     '',
                 ],
@@ -117,6 +119,16 @@ export const linkImgGenshinImpact = [
                 ],
             },
             {
+                name: ['Liyue', 'Dendro', 'Baizhu' ],
+                images: [
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/05/06/728ad606b7575fa9d3699191a2fdaa66_6668057386414634745.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/05/06/deebd2c8384dfb5081f43eec456d9089_6982956827931456896.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/05/06/51309115133db0fd02f0792c4932c12e_8705937500471846452.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/05/06/ce127de227f0b524d83b72c5963632c5_6560966694235864275.png',
+                    '',
+                ],
+            },
+            {
                 name: ['Liyue', 'Cryo', 'Chongyun' ],
                 images: [
                     'https://upload-os-bbs.hoyolab.com/upload/2023/10/19/9b60fbbd9595647399da50d39fa0969b_7634916507578557285.png',
@@ -171,6 +183,14 @@ export const linkImgGenshinImpact = [
                 ],
             },
             {
+                name: ['Inazuma', 'Electron', ''],
+                images: [
+                        '',
+                        '',
+                        '',
+                ],
+            },
+            {
                 name: ['Inazuma', 'Kamisato', 'Hydro', 'Kamisato Ayato', 'Ayato'],
                 images: [
                     'https://upload-os-bbs.hoyolab.com/upload/2023/12/28/e2c20d37a90e5d3216bf237fc05516fd_787843168069341004.png',
@@ -183,9 +203,17 @@ export const linkImgGenshinImpact = [
             {
                 name: ['Inazuma', 'Electron', ''],
                 images: [
-                        '',
-                        '',
-                        '',
+                    '',
+                    '',
+                    '',
+                ],
+            },
+            {
+                name: ['Inazuma', 'Electron', 'Yae', 'Yae Miko'],
+                images: [
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/05/26/5dcdad1d99b52f00f40ce0a927f49f1e_8232592241612029897.png',
+                    '',
+                    '',
                 ],
             },
             {
@@ -205,7 +233,7 @@ export const linkImgGenshinImpact = [
                 images: [
                     'https://upload-os-bbs.hoyolab.com/upload/2023/07/17/2f8b1510b2a16b7d7b978158ca358266_3088462437916991053.png',
                     'https://upload-os-bbs.hoyolab.com/upload/2023/07/17/8abd6811bb0274c6f258b5d37e43bf8f_6189843851867862351.png',
-                    '',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/05/26/432848b4597764219a3696c53d186bb5_5103249419548018782.png',
                     '',
                     '',
                 ],
@@ -252,10 +280,24 @@ export const linkImgGenshinImpact = [
                 ],
             },
             {
+                name: ['Sumeru', 'Dendro', 'Tighnari'],
+                images: [
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/05/06/f5ad780dff671299c6df561e29b8e5e8_6098358153454776629.png',
+                    '',
+                    '',
+                    '',
+                ],
+            },
+            {
                 name: ['Sumeru', 'Dendro ', 'Kaveh'],
                 images: [
                     'https://upload-os-bbs.hoyolab.com/upload/2023/05/26/ebb9c852c799eb55896b5a951c3d0d83_7081329141415406159.png',
                     'https://upload-os-bbs.hoyolab.com/upload/2023/05/26/983c7a195fa26d161651ec2544fbfc17_8969729033622113860.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/05/06/d4be31ac03acc563adb70c44b5d5bedb_487189403616370047.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/05/06/9700c9fd79a7305a0b021eca4f2a4726_1640891917783651909.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/05/06/b2161ad45bc0ea7a59725e84f51f7560_253045730008173315.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/05/06/cd86bece7483c045cad619b6439aaebd_2722200948688203723.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/05/06/fb04b7c4de7189237ff646e6abc818a5_2570197267006198054.png',
                     '',
                 ],
             },
@@ -263,7 +305,7 @@ export const linkImgGenshinImpact = [
                 name: ['Sumeru', 'Electron', 'Cyno'],
                 images: [
                     'https://upload-os-bbs.hoyolab.com/upload/2023/05/26/746a1c62d20254ee4b89dceddbe35835_1840354919977737812.png',
-                    '',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/05/06/9d102fbf40f048be6a7df7dded3ad5be_2191484360217274558.png',
                     '',
                     '',
                 ],
@@ -273,6 +315,8 @@ export const linkImgGenshinImpact = [
                 images: [
                     'https://upload-os-bbs.hoyolab.com/upload/2023/07/19/3b2ce8094a2060ced0f45ab3a38b97d3_365842272525510755.png',
                     'https://upload-os-bbs.hoyolab.com/upload/2023/07/17/7f403b7bd36ca4aa135c0eff1192a16c_5804396311201633813.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/05/06/efff6e7e2807597edd0007b843238e5b_5256042736721132640.png',
+                    '',
                     '',
                     '',
                 ],
@@ -282,13 +326,35 @@ export const linkImgGenshinImpact = [
             {
                 name: ['Sumeru', '', ''],
                 images: [
-                        '',
+                    '',
                 ],
             },
             {
-                name: ['Sumeru', '', ''],
+                name: ['Sumeru', 'Anome', 'Faruzan'],
                 images: [
-                        '',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/05/06/e62996a81f75ee030730f981a4203c49_4301153847037532797.png',
+                    '',
+                    '',
+                    '',
+                ],
+            },
+            {
+                name: ['Sumeru', 'Cryo', 'Layla'],
+                images: [
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/05/06/e6179bcfb6132210521a3529e922af63_296193854759854697.png',
+                    '',
+                    '',
+                    '',
+                    '',
+                ],
+            },
+            {
+                name: ['Sumeru', 'Dendro', 'Archon', 'Nahida'],
+                images: [
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/05/06/54ade97657c02b0e3ad4192b94996424_7838913193413456917.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/05/06/32f97f9080d7705ab9a80b1765dccf17_6724888496289072798.png',
+                    '',
+                    '',
                 ],
             },
             {
@@ -424,6 +490,8 @@ export const linkImgGenshinImpact = [
                     'https://upload-os-bbs.hoyolab.com/upload/2023/11/17/5142d3bbe0bae97ce9a2d4aa36d0e19a_5276004962372933640.png',
                     'https://upload-os-bbs.hoyolab.com/upload/2023/11/17/6b7ffcc3f9cc92bbefe83d2d2599d38f_6144830342900167388.png',
                     'https://upload-os-bbs.hoyolab.com/upload/2023/11/17/b604bbda9f85f46a2a589036633cae46_6411820716281291565.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/05/26/8ba3efcd7a932d21214fc17e2ae7a871_3111424211218599741.png',
+                    'https://upload-os-bbs.hoyolab.com/upload/2023/05/26/01a10c22a874918441059951f6015f3a_1092967721963204222.png',
                     '',
                 ],
             },
