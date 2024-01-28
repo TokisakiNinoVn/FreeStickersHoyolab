@@ -59,7 +59,10 @@ export const linkImgGenshinImpact = [
                     'https://upload-os-bbs.hoyolab.com/upload/2023/10/19/95f7ce69efa0051fbc642be7049f453c_4796262262420034755.png',
                     'https://upload-os-bbs.hoyolab.com/upload/2023/03/09/fc79c66755518259c4ffc79aac6f75fd_2448632331411135484.png',
                     'https://upload-os-bbs.hoyolab.com/upload/2022/09/27/90f34003f7aea1df98629ed29349c18e_1385097492958958560.png',
-                    '',
+                    'https://upload-bbs.mihoyo.com/upload/2022/04/20/3e4501e0b3d45ff4b95db9a1aed7ad0d_3280547346359161309.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/04/20/b78d3292594ba269fcad68851d8f1466_4458693925498154665.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/04/20/8c8ff11f9a36c3e66554395d0e7f4223_6325700575789171862.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/04/20/d808db1731624c48917ce11af35f4d4a_3385952742143113365.png',
                     '',
                 ],
             },
@@ -208,6 +211,26 @@ export const linkImgGenshinImpact = [
                 ],
             },
             {
+                name: ['Liyue', 'Hydro', 'Xingqiu' ],
+                images: [
+                    'https://upload-bbs.mihoyo.com/upload/2022/04/20/e8d91cb428e332ed6ee2ca2f70b8fed2_33238971667024609.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/04/20/259dbcc437d336b01a98730b675a998a_4125204528863606119.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/04/20/6596bd9f30fc297bdfb00ffea5af2440_8284620514903295584.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/04/20/f8b443e1b56da84a03975e16458d88b4_6276175714421624335.png',
+                    '',
+                    '',
+                ],
+            },
+            {
+                name: ['Liyue', 'Anemo', 'Xiao', 'loli' ],
+                images: [
+                    'https://upload-bbs.mihoyo.com/upload/2022/06/22/6fb8daedb434abe1560a98af6232c095_4473375398161453907.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/06/22/16c392259ad9546b15c2e5ed8b1fe1d4_1169333300865923840.png',
+                    '',
+                    '',
+                ],
+            },
+            {
                 name: ['Liyue', 'Dendro', 'Baizhu' ],
                 images: [
                     'https://upload-os-bbs.hoyolab.com/upload/2023/05/06/728ad606b7575fa9d3699191a2fdaa66_6668057386414634745.png',
@@ -238,11 +261,22 @@ export const linkImgGenshinImpact = [
         ],
         female: [
             {
-                name: ['Liyue', '', ],
+                name: ['Liyue', '', ''],
                 images: [
                     '',
                     '',
                     '',
+                    '',
+                    '',
+                    '',
+                ],
+            },
+            {
+                name: ['Liyue', 'Pyro', 'Yanfei'],
+                images: [
+                    'https://upload-bbs.mihoyo.com/upload/2022/06/22/20d03d5c03560a68a9b5ca1c5ddf2293_5646653669169504614.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/06/22/56bc9512107bcbc962e6819a82b3bb51_8202510128455980298.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/06/22/7ebdb46f363217b4a3737823b4171070_9166454748089832020.png',
                     '',
                     '',
                     '',
@@ -342,6 +376,9 @@ export const linkImgGenshinImpact = [
                 name: ['Inazuma', 'Geo', 'Arataki Itto', 'Itto', 'Arataki'],
                 images: [
                     'https://upload-bbs.mihoyo.com/upload/2022/06/22/811b1e2cc50582344c9f47a088999020_3835590480504078085.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/06/22/5fb679989c2fdb80a105cefea0a19c0b_9189976232990353283.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/06/22/c034fa53255a5f7a51a2b127e44be4bb_4276052435704340624.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/06/22/887ee18605a74df9402ec9005dcfb132_4941908885192844718.png',
                     '',
                     '',
                 ],
@@ -368,7 +405,10 @@ export const linkImgGenshinImpact = [
                 name: ['Inazuma', 'Kamisato', 'Hydro', 'Kamisato Ayato', 'Ayato'],
                 images: [
                     'https://upload-os-bbs.hoyolab.com/upload/2023/12/28/e2c20d37a90e5d3216bf237fc05516fd_787843168069341004.png',
-                    '',
+                    'https://upload-bbs.mihoyo.com/upload/2022/04/20/cc0862a9aef80cfcb5457af57092729c_4383694468533899503.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/04/20/57820eafaa0f8f150fcf7ca92e885e23_6165264986814355979.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/04/20/a396995bb831a1e7402ecb231f2c1597_1465213413949511884.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/04/20/be07ed78153b15ac30d735751ee40e8d_6323830512909083260.png',
                     '',
                 ],
             },
@@ -378,6 +418,16 @@ export const linkImgGenshinImpact = [
                 name: ['Inazuma', 'Electron', ''],
                 images: [
                     '',
+                    '',
+                    '',
+                ],
+            },
+            {
+                name: ['Inazuma', 'Electron', 'Kuki Shinobu', 'Kuki', 'Shinobu'],
+                images: [
+                    'https://upload-bbs.mihoyo.com/upload/2022/06/22/948000a9b529d45cf7b08c905c99fac7_7578568839968134419.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/06/22/85d236f36735e022af8d8de9000d5877_2831335153926098547.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/06/22/a6a00fe1ae9d61587bf83e289e131864_2593952335735829583.png',
                     '',
                     '',
                 ],
@@ -428,6 +478,10 @@ export const linkImgGenshinImpact = [
                     'https://upload-os-bbs.hoyolab.com/upload/2023/12/28/82444ce1a66aa7ed8f09e38a960741c4_438748924680795038.png',
                     'https://upload-os-bbs.hoyolab.com/upload/2023/12/28/bd754deeab9869e9ad3c9bb98f99e95c_5141700034784822446.png',
                     'https://upload-os-bbs.hoyolab.com/upload/2022/12/15/390e848e887542dc2762740274430af5_3716645045143934268.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/04/20/ddb8bef3cd74d94b0e0e758d0f339e22_7984064955431897121.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/04/20/466bb0beb7481f65064f67a68859d778_7691700810423513597.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/04/20/450eff643c666d0d7ea1befc52768b9b_4716616803500806861.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/04/20/ef2e14d42a8b01ceb4b33caefe8a4878_8496666860413821421.png',
                     '',
                 ],
             },
@@ -775,6 +829,21 @@ export const linkImgGenshinImpact = [
                 name: [ 'Fatui', 'Pyro', 'Arlecchino',],
                 images: [
                     'https://upload-os-bbs.hoyolab.com/upload/2023/11/17/db9295dedf95ff5490a2cebad330daae_3332154566975809744.png',
+                    '',
+                    '',
+                    '',
+                ],
+            }
+        ],
+    },
+    {
+        land: 'gif',
+        male: [],
+        female: [
+            {
+                name: [ 'Gif', '', '',],
+                images: [
+                    '',
                     '',
                     '',
                     '',
