@@ -13,6 +13,15 @@ export const linkImgGenshinImpact = [
                 ],
             },
             {
+                name: ['Mondstadt', 'Pyro', 'Batman', 'Diluc'],
+                images: [
+                    'https://upload-bbs.mihoyo.com/upload/2022/03/28/6860e244437b2228002b4dcb05fe1542_3797615015828919351.png',
+                    '',
+                    '',
+                    '',
+                ],
+            },
+            {
                 name: ['Mondstadt', 'Unknow', 'Arther'],
                 images: [
                     'https://upload-os-bbs.hoyolab.com/upload/2022/08/19/55f2af075e97d8724ed6731ec487a3bc_2315167064732050002.png',
@@ -82,7 +91,7 @@ export const linkImgGenshinImpact = [
                     'https://upload-os-bbs.hoyolab.com/upload/2023/07/17/79c2e61211d4d075a93feeeeee712eab_9143330008477200360.png',
                     'https://upload-os-bbs.hoyolab.com/upload/2023/07/17/ef9cdb32d1acfb4ce15d8416e5f8fefb_4855952060329618207.png',
                     'https://upload-os-bbs.hoyolab.com/upload/2023/05/26/2baa15b3273ea7b0e863524b01f12006_4422461647779866521.png',
-                    '',
+                    'https://upload-bbs.mihoyo.com/upload/2022/03/10/b78cfd1470b711f51d9f6ccac1e9e401_5531538493175375785.png',
                     '',
                     '',
                 ],
@@ -93,6 +102,24 @@ export const linkImgGenshinImpact = [
                 name: ['Mondstadt', 'Cryo', ''],
                 images: [
                     '',
+                    '',
+                    '',
+                    '',
+                ],
+            },
+            {
+                name: ['Mondstadt', 'Anemo', 'Jean', ''],
+                images: [
+                    'https://upload-bbs.mihoyo.com/upload/2022/03/28/fec138d9da51ee08dcecdc502febbb09_5262991148308558576.png',
+                    '',
+                    '',
+                    '',
+                ],
+            },
+            {
+                name: ['Mondstadt', 'Electron', 'Lisa'],
+                images: [
+                    'https://upload-bbs.mihoyo.com/upload/2022/03/10/b78cfd1470b711f51d9f6ccac1e9e401_5531538493175375785.png',
                     '',
                     '',
                     '',
@@ -211,6 +238,18 @@ export const linkImgGenshinImpact = [
                 ],
             },
             {
+                name: ['Liyue', 'Archon', 'Archon Geo', 'Geo', 'Zhongli' ],
+                images: [
+                    'https://upload-bbs.mihoyo.com/upload/2022/03/28/5ea7163d8c8a7cf1fb7593335b6a99de_1854067973646462492.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/02/23/7124c77a558e785acb8dc5ee8cf44bfe_751471516496209043.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/02/23/ca4018a9ad134e061071106607521450_4525306716757833884.png',
+                    '',
+                    '',
+                    '',
+                    '',
+                ],
+            },
+            {
                 name: ['Liyue', 'Hydro', 'Xingqiu' ],
                 images: [
                     'https://upload-bbs.mihoyo.com/upload/2022/04/20/e8d91cb428e332ed6ee2ca2f70b8fed2_33238971667024609.png',
@@ -267,6 +306,28 @@ export const linkImgGenshinImpact = [
                     '',
                     '',
                     '',
+                    '',
+                    '',
+                ],
+            },
+            {
+                name: ['Liyue', 'Geo', 'Yun Jin'],
+                images: [
+                    'https://upload-bbs.mihoyo.com/upload/2022/02/23/8b19ee0ecfc3fedc47ce10a22a28f9e8_5929109472848581954.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/02/23/b8826366a9e4a08d45a61fac20c70844_7653908324687331348.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/02/23/bfe09cb051f10dd4a0e06412ee5279bf_7474437698427904103.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/02/23/d52a07c7b3194fc4caa6dd0973787a86_608141484480652952.png',
+                    '',
+                    '',
+                ],
+            },
+            {
+                name: ['Liyue', 'Cryo', 'Shenhe'],
+                images: [
+                    'https://upload-bbs.mihoyo.com/upload/2022/02/23/a6da2ee294fbb63bfdc837e9b91708a4_1917936835493074776.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/02/23/7aeb7ca52493c8ab75aaf334f109939b_6035585797689261262.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/02/23/f7792426b4bd42a848a995751447ab94_4173417523730213087.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/02/23/35d12b035b888c5702d7efb7c4719b5a_5498777567991819303.png',
                     '',
                     '',
                 ],
@@ -436,7 +497,13 @@ export const linkImgGenshinImpact = [
                 name: ['Inazuma', 'Electron', 'Yae', 'Yae Miko'],
                 images: [
                     'https://upload-os-bbs.hoyolab.com/upload/2023/05/26/5dcdad1d99b52f00f40ce0a927f49f1e_8232592241612029897.png',
-                    '',
+                    'https://upload-bbs.mihoyo.com/upload/2022/03/10/9e2c269307efea097265ad6784d48f05_5181209039616015956.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/03/10/9799027641283208aa8ece4adf0ad5ba_1995853890637797345.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/03/10/41811e7084629389039f6b951fad0440_1015396937825702577.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/03/09/0207d949207ceed00161d8b69587dc7d_328038560655400105.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/03/09/ac465b18ea030ac36992f143b22d4526_6200680134052001019.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/03/09/181b161629794b3ed801fea947a634ac_3546030302108183433.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/03/10/a8efd9c202ad8b34a8da14e0bbd02ad0_9213780412212253225.png',
                     '',
                 ],
             },
@@ -458,6 +525,9 @@ export const linkImgGenshinImpact = [
                     'https://upload-os-bbs.hoyolab.com/upload/2023/07/17/2f8b1510b2a16b7d7b978158ca358266_3088462437916991053.png',
                     'https://upload-os-bbs.hoyolab.com/upload/2023/07/17/8abd6811bb0274c6f258b5d37e43bf8f_6189843851867862351.png',
                     'https://upload-os-bbs.hoyolab.com/upload/2023/05/26/432848b4597764219a3696c53d186bb5_5103249419548018782.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/03/10/bc9be075c638fef7644088ef5f586b3f_4806140419527000714.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/03/10/922bc05ae6958e09d8f62c69ecb8c436_5687931670215838998.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/03/10/fddb7df4cb61be5b1fc802daab593c5f_6806900108397061331.png',
                     '',
                     '',
                 ],
@@ -469,6 +539,10 @@ export const linkImgGenshinImpact = [
                     'https://upload-bbs.mihoyo.com/upload/2022/02/23/c0739c8c34bae5b3ee8749ef77b9384e_5736952483423015425.png',
                     'https://upload-os-bbs.hoyolab.com/upload/2023/12/28/b6d6262e07c683baa94d7ab94a0795d0_2557740392923490910.png',
                     'https://upload-os-bbs.hoyolab.com/upload/2023/05/26/be54b514a9baba24e76d66f656738abc_7896258004332548100.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/03/10/91880bdd91eaa6b36807a3b5b863a30a_4407012733092539398.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/03/10/4c96b847ae4b312ea4601932253202de_6893160770808422194.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/03/10/8154ca4bff64331be83a110a6bb1c898_858299548873630540.png',
+                    'https://upload-bbs.mihoyo.com/upload/2022/03/28/8b7df1c76430cd30faacefea8559a20e_1500864002528883188.png',
                     '',
                 ],
             },
