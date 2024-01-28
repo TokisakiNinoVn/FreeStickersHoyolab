@@ -160,7 +160,7 @@ html body .search_navbar .search_main .paste ion-icon:hover {
 html body div.container {
   margin-top: 100px;
   width: 100%;
-  min-height: 100vh;
+  min-height: 60vh;
   display: flex;
   justify-content: center;
 }
